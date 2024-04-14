@@ -1,34 +1,39 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import Navigator from './components/Navigation/Navigation';
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
+    <section className="dark:text-white dark:bg-green-900 duration-100">
+      <Navigator/>
+
+      <div className="mx-80 text-2xl text-justify">
+        I'm a <span className="font-bold">Full-stack Engineer</span> focused on designing and developing products that transform your business 
+        into commercial success. I am driven and determined to build innovative solutions to your business's existing challenges. I 
+        am proficient in <span className="font-bold">product development and management, UX design, front-end and back-end development</span>.        I have highly effective <span className="font-bold">written and verbal communication skills </span> and excellent 
+        <span className="font-bold">problem-solving and brand development skills</span>.
+      </div>
+      <div className="text-4xl"> My Recents Works</div>
+
+      <div className="text-4xl">
+        Skills I have. 
+      </div>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        languages
+       <div>HTML 5</div>
+       <div>Expert</div>
       </div>
-      <h1>Pramin Budhathoki</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+      <div>
+        Frameworks
+
+       <div>React</div>
+       <div>Expert</div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+      <div>
+        Tools
+       <div>Figma</div>
+       <div>Strong</div>
+      </div>
+
+    </section>
   )
 }
 
