@@ -2,7 +2,7 @@ import Navigator from './components/Navigation/Navigation';
 function App() {
 
   return (
-    <section className="dark:text-white dark:bg-green-900 duration-100">
+    <section className="dark:text-white dark:bg-slate-900 duration-100">
       <Navigator/>
 
       <div className="mx-80 text-2xl text-justify">
