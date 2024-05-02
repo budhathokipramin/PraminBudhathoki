@@ -9,6 +9,7 @@ export default {
     extend: {
       fontFamily: { 
         allura: ["allura","sans-serif"],
+        PPEditNew: ["PPEditNew","sans-serif"],
       },
     },
   },

@@ -8,12 +8,12 @@ const Navigator = () => {
                 <div className="font-allura text-8xl font-black">
                     Pramin <span className="text-sky-600">Budhathoki</span>
                 </div>
-                <div className="m-8 mt-0 text-4xl">Full-stack Developer</div>
+                <div className="font-PPEditNew m-8 mt-0 text-4xl">Full-stack Developer</div>
             </div>
             <div className="mt-8">Projects</div>
-            <div className="mt-8">Education</div>
-            <div className="mt-8">Skills</div>
             <div className="mt-8">Blogs</div>
+            <div className="mt-8">Skills</div>
+            <div className="mt-8">Education</div>
             <div className="mt-8">Contact</div>
             <Theme /> 
             <div className="mt-8">EN</div>

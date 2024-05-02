@@ -84,5 +84,64 @@ export const SkillSet: Skills[]=[
         category: category.Framework,
         level: skillLevel.Expert,
     },
+    { 
+        name: 'Framer Motion',
+        category: category.Framework,
+        level: skillLevel.Expert,
+    },
+
+    { 
+        name: 'GraphQL',
+        category: category.Framework,
+        level: skillLevel.Expert,
+    },
+    { 
+        name: 'REST APIs',
+        category: category.Framework,
+        level: skillLevel.Expert,
+    },
+
+    { 
+        name: 'Prisma',
+        category: category.Framework,
+        level: skillLevel.Expert,
+    },
+    { 
+        name: 'Drizzle',
+        category: category.Framework,
+        level: skillLevel.Expert,
+    },
+    { 
+        name: 'Mongoose',
+        category: category.Framework,
+        level: skillLevel.Expert,
+    },
+    { 
+        name: 'Redux',
+        category: category.Framework,
+        level: skillLevel.Expert,
+    },
+    { 
+        name: 'Sentry',
+        category: category.Framework,
+        level: skillLevel.Expert,
+    },
+
+    { 
+        name: 'Shad CN',
+        category: category.Framework,
+        level: skillLevel.Expert,
+    },
+
+    { 
+        name: 'PlanetScale',
+        category: category.Framework,
+        level: skillLevel.Expert,
+    },
+    { 
+        name: 'PostHog',
+        category: category.Framework,
+        level: skillLevel.Expert,
+    },
 
 ];

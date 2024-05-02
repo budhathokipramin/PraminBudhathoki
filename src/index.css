@@ -6,3 +6,7 @@
     font-family: "allura";
     src: url("./assets/fonts/Allura-Regular.ttf");
 }
+@font-face{
+    font-family: "PPEditNew";
+    src: url("./assets/fonts/PPEditorialNew.otf");
+}
