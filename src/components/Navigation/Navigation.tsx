@@ -1,4 +1,3 @@
-import React from 'react';
 import { Theme } from '../theme/theme';
 
 const Navigator = () => {
@@ -15,7 +14,7 @@ const Navigator = () => {
             <div className="mt-8">Skills</div>
             <div className="mt-8">Education</div>
             <div className="mt-8">Contact</div>
-            <Theme /> 
+            <Theme />
             <div className="mt-8">EN</div>
         </div>
     );

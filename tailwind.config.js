@@ -7,9 +7,10 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: { 
-        allura: ["allura","sans-serif"],
-        PPEditNew: ["PPEditNew","sans-serif"],
+      fontFamily: {
+        allura: ["allura", "sans-serif"],
+        PPEditNew: ["PPEditNew", "sans-serif"],
+        firaSans: ["firaSans", "sans-serif"],
       },
     },
   },
